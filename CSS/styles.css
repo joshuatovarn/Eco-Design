@@ -14,23 +14,23 @@ body{
 }
 
 section{
-    height: 1000px;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    padding: 0 40px;
+    padding: 0 3rem;
     align-items: center;
 }
 
 section h2{
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 
 }
 
 section p{
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 section a{
@@ -53,7 +53,7 @@ a:hover{
 }
 
 section img{
-    height: 50%;
+    height: 60%;
 }
 
 section:nth-child(1){
