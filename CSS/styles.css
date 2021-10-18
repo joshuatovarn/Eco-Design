@@ -21,7 +21,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    overflow: hidden;
 }
 
 .container-text h2 {
@@ -83,10 +82,10 @@ a:hover {
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:650px) {
 
     .hero>img {
-        height: 30%;
+        height: 25%;
     }
 
 }
