@@ -21,6 +21,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    overflow: hidden;
 }
 
 .container-text h2 {
@@ -67,7 +68,7 @@ a:hover {
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .hero {
         flex-direction: column-reverse;
     }
@@ -83,7 +84,9 @@ a:hover {
 }
 
 @media screen and (max-width:375px) {
+
     .hero>img {
         height: 30%;
     }
+
 }
